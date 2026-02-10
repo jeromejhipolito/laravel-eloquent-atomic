@@ -1,0 +1,41 @@
+{
+    "name": "jeromejhipolito/laravel-eloquent-atomic",
+    "description": "Atomic upsert operations and slug generation with soft-delete awareness for Laravel Eloquent models.",
+    "keywords": ["laravel", "eloquent", "atomic", "upsert", "slug", "soft-delete", "pessimistic-locking"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerome Hipolito",
+            "email": "jeromejhipolito@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/database": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "pestphp/pest": "^2.0|^3.0",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeromeJHipolito\\EloquentAtomic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JeromeJHipolito\\EloquentAtomic\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
