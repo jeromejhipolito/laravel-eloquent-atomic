@@ -1,7 +1,7 @@
 {
     "name": "jeromejhipolito/laravel-eloquent-atomic",
-    "description": "Atomic upsert operations and slug generation with soft-delete awareness for Laravel Eloquent models.",
-    "keywords": ["laravel", "eloquent", "atomic", "upsert", "slug", "soft-delete", "pessimistic-locking"],
+    "description": "Atomic upsert operations with soft-delete awareness and pessimistic locking for Laravel Eloquent models.",
+    "keywords": ["laravel", "eloquent", "atomic", "upsert", "soft-delete", "pessimistic-locking", "concurrency"],
     "type": "library",
     "license": "MIT",
     "authors": [
